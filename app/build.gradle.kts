@@ -6,14 +6,14 @@ plugins {
 }
 
 android {
-    namespace = "ca.bart.guifra.demo"
-    compileSdk = 33
+    namespace = "ca.bart.guifra.tp3"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "ca.bart.guifra.demo"
+        applicationId = "ca.bart.guifra.tp3"
         minSdk = 19
         //noinspection EditedTargetSdkVersion
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }

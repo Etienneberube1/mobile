@@ -1,11 +1,11 @@
-package ca.bart.guifra.demo
+package ca.bart.guifra.tp3
 
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Matrix
 import android.graphics.Paint
 
-abstract class GameObject : Drawable {
+abstract class GameObject : Drawable, Updatable {
 
     val debugPaint = Paint()
 

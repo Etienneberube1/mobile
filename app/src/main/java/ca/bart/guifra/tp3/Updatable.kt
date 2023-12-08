@@ -1,4 +1,4 @@
-package ca.bart.guifra.demo
+package ca.bart.guifra.tp3
 
 interface Updatable {
 

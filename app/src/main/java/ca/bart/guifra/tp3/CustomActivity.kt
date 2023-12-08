@@ -1,13 +1,13 @@
-package ca.bart.guifra.demo
+package ca.bart.guifra.tp3
 
 import android.app.Activity
-import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import android.widget.Button
-import ca.bart.guifra.demo.databinding.CustomViewBinding
+import ca.bart.guifra.tp3.databinding.CustomViewBinding
+
+
 
 class CustomActivity : Activity(), Updatable {
 

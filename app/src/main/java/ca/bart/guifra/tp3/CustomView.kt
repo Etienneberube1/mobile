@@ -1,19 +1,10 @@
-package ca.bart.guifra.demo
+package ca.bart.guifra.tp3
 
 import android.content.Context
 import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Matrix
-import android.graphics.Paint
 import android.util.AttributeSet
-import android.util.Log
-import android.view.MotionEvent
 import android.view.View
-import kotlin.math.PI
-import kotlin.math.atan2
-import kotlin.math.cos
 import kotlin.math.min
-import kotlin.math.sin
 
 class CustomView @JvmOverloads constructor(
     context: Context,
@@ -42,8 +33,6 @@ class CustomView @JvmOverloads constructor(
 
         val attributes = context.theme.obtainStyledAttributes(attrs, R.styleable.CustomView, defStyle, 0)
         try {
-            //val color = attributes.getColor(R.styleable.CustomView_color, Color.RED)
-            //val time = attributes.getFloat(R.styleable.CustomView_time, 2f)
         } finally {
             attributes.recycle()
         }
