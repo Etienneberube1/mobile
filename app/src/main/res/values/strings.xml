@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="initial_state">Freshly started!</string>
+    <string name="pressed_state">Button was pressed!</string>
+    <string name="example" translatable="false">This string contains a parameter "%s"</string>
+</resources>
